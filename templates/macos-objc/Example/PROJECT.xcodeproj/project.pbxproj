@@ -79,7 +79,7 @@
 		FD6FCEAF2761E5BF00145E96 = {
 			isa = PBXGroup;
 			children = (
-				FD6FCEF32761E7D300145E96 /* Podspec Metadata */,
+				FD6FCF032761F2E700145E96 /* Podspec Metadata */,
 				FD6FCEBA2761E5BF00145E96 /* PROJECT */,
 				FD6FCEF42761EA8C00145E96 /* Tests */,
 				FD6FCEB92761E5BF00145E96 /* Products */,
@@ -111,13 +111,6 @@
 			path = PROJECT;
 			sourceTree = "<group>";
 		};
-		FD6FCEF32761E7D300145E96 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 		FD6FCEF42761EA8C00145E96 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +128,13 @@
 				FD6FCEF92761EECE00145E96 /* Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6FCF032761F2E700145E96 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -65,7 +65,7 @@ module Pod
       # Remove the product reference
       product = @project.products.select { |product| product.path == @configurator.pod_name + "_Example.app" }.first
       product.remove_from_project
-      print("product"+product)
+      puts "product" + product
 
       # Remove the actual folder + files for both projects
       `rm -rf templates/ios/Example/PROJECT`

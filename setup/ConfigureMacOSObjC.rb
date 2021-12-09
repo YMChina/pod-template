@@ -30,7 +30,7 @@ module Pod
         :xcodeproj_path => "templates/macos-objc/Example/PROJECT.xcodeproj",
         :platform => :osx,
         :remove_demo_project => (keep_demo == :no),
-        :prefix => "TD"
+        :prefix => ""
       }).run
 
       `mv ./templates/macos-objc/* ./`
